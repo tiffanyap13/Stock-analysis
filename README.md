@@ -1,4 +1,4 @@
-# Stock-analysis
+# VBA Challenge - Refactoring
 ## Overview of Project
 The project directive is to refactor original code from Module 2.
 ### Purpose of Analysis
@@ -28,9 +28,9 @@ The tickerIndex was used to access the stock ticker index for the tickers, ticke
     tickers(10) = "TERP"
     tickers(11) = "VSLR"
 ### Stock Performance
-The analysis was run on twelve pre-determined stocks for both 2017 and 2018.  Based on the results, all but one of the stocks in 2017 provided positive returns; some were even over 100%! [2017 Stock Performance](2017_Stock_Performance) The results in 2018 proved to be vastly different.  Only two of the twelve stocks produced a positive return for the year. [2018 Stock Performance](2018_Stock_Performance)
+The analysis was run on twelve pre-determined stocks for both 2017 and 2018.  Based on the results, all but one of the stocks in 2017 provided positive returns; some were even over 100%! [2017 Stock Performance](Resources/2017_Stock_Performance) The results in 2018 proved to be vastly different.  Only two of the twelve stocks produced a positive return for the year. [2018 Stock Performance](Resources/2018_Stock_Performance)
 ### Execution Times
-The execution times between the original and refactored script were vastly different.  The run time using the refactored code for 2017 was 0.19 seconds, compared to 0.57 seconds using the original code.  Similarly, the run time using the refactored code for 2018 was 0.18 seconds, versus 0.58 seconds using the original code. ![2017](VBA_Challenge_2017) ![2017 Original](2017_Original_Code_RunTime) ![2018](VBA_Challenge_2018) ![2018 Original](2018_Original_Code_RunTime)
+The execution times between the original and refactored script were vastly different.  The run time using the refactored code for 2017 was 0.19 seconds, compared to 0.57 seconds using the original code.  Similarly, the run time using the refactored code for 2018 was 0.18 seconds, versus 0.58 seconds using the original code. ![2017](REsources/VBA_Challenge_2017) ![2017 Original](Resources/2017_Original_Code_RunTime) ![2018](Resources/VBA_Challenge_2018) ![2018 Original](Resources/2018_Original_Code_RunTime)
 ## Summary
 There are both advantages and disadvantages of refactoring code, which were discovered during the completion of this project.
 ### Advantages/disadvantages of refactoring code
